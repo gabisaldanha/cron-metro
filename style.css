@@ -2,7 +2,7 @@
 
 :root {
   --cor-de-fundo: #1e1e1e;
-  --verde: #6fff57;
+  --rosa: #6fff57;
   --branco: #ffffff;
   --botao-ativo: #3a375e;
   --botao-inativo: rgba(58, 55, 94, 0.5);
@@ -32,7 +32,7 @@ body {
 }
 
 .titulo-principal span {
-  color: var(--verde);
+  color: var(--rosa);
 }
 
 .botao {
@@ -58,14 +58,16 @@ body {
 .botoes {
   display: block;
 }
-.ativo {
-  background-color: var(--botao-ativo);
-  border-bottom: 4px solid var(--verde);
-}
+
+
 @media screen and (min-width: 768px) {
   /* Código omitido */
 
   .botao:last-child {
     border-radius: 0 40px 0 0;
   }
+}
+.ativo {
+  background-color: var(--botao-ativo);
+  border-bottom: 4px solid var(--rosa);
 }
